@@ -1,0 +1,12 @@
+name = "serverless-api"
+type = "javascript"
+zone_id = ""
+account_id = "b90601ae9eacef8ec9b0a829dcbf1691"
+route = ""
+workers_dev = true
+compatibility_date = "2022-02-24"
+
+[build]
+command = "npm install && npm run build"
+[build.upload]
+format = "service-worker"
